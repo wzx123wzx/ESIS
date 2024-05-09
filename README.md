@@ -7,7 +7,7 @@ This README contains instructions on how to get the data that were used in the p
 # Data
 You can use UAV image dataset from Dronemapper website [at this link](https://dronemapper.com/sample_data/) or your own dataset with GPS information to test our code.
 # Requirements and Installation
-Our code is implemented on a linux system with 236 GB of RAM.
+Our code is implemented on a linux system.
 In order to run our code, you need to make sure that you have all the required python packages and enough RAM. 
 You can find the list of packages we installed on our conda environment at [this text file](requirements.txt). 
 It is very important to install the same versions of some of these packages in order for the code to run.
