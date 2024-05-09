@@ -1,5 +1,4 @@
 # Multi-frame Graph-cut based on superpixel segmentation
-# Multi-label optimization reference: https://vision.cs.uwaterloo.ca/code/
 import cv2
 import numpy as np
 import multiprocessing
@@ -121,6 +120,7 @@ def Multi_frame_graph_cut(images_name, tf_vec, warped_img, warped_img_valid, img
 
 
 def select_KNN_helper(args):
+    # select KNN range of superpixel
     sp_idx, range_sp, mosaic_sp, warped_img_center, max_coverage = args
     sp_mask = mosaic_sp == sp_idx + 1
     center_coord = calculate_region_center(sp_mask)
