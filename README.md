@@ -3,7 +3,7 @@ A novel method for stitchig large-scale high resolution images with robust regis
 You can find our paper [here](https://github.com/).
 If you find this method and the paper interesting and useful for your research, please cite us using the following bibliography.
 This README contains instructions on how to get the data that were used in the paper, install dependencies, and run our code.
-
+(https://github.com/wzx123wzx/Large-scale-image-stitching/blob/main/workflow.png)
 # Data
 You can use UAV image dataset from Dronemapper website [at this link](https://dronemapper.com/sample_data/) to test our code.
 # Requirements and Installation
