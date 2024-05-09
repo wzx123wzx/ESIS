@@ -3,7 +3,7 @@ A novel method for stitchig large-scale high resolution images with robust regis
 You can find our paper [here](https://github.com/).
 ![workflow](https://github.com/wzx123wzx/Large-scale-image-stitching/assets/71632237/4672e482-0676-49cf-a662-2f9b7aa5d315)
 
-If you find this method and the paper interesting and useful for your research, please cite us using the following bibliography.
+If you find this method and the paper interesting and useful for your research, please cite us using the [bibliography](ours_ref.bib).
 
 This README contains instructions on how to get the data that were used in the paper, install dependencies, and run our code.
 # Data
