@@ -4,9 +4,8 @@ A novel method for stitchig large-scale high resolution images while being robus
 You can use UAV image dataset from Dronemapper website [at this link](https://dronemapper.com/sample_data/) to test our code.
 # Requirements and Installation
 Currently, there are no installation scripts for this repo. 
-In order to run our code, you need to make sure that you have all the required python packages and files, and set correct configurations. 
+In order to run our code, you need to make sure that you have all the required python packages and files. 
 You can find the list of packages we installed on our conda environment at [this text file](requirements.txt). 
-For pygco library, you should refer [this blog](https://blog.csdn.net/weixin_46010783/article/details/113487000) if you encounter any install problem.
 It is very important to install the same versions of some of these packages in order for the code to run.
 # Configurations
 You can change our settings in the [Settings_manager.py](Settings_manager.py).
