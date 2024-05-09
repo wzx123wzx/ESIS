@@ -40,7 +40,6 @@ def get_SIFT_points(img, max_sift_number, filter_flag):
         desc = desc[: min(len(kp), max_sift_number)]
     elif filter_flag is True:
         # sort according to the size of the response value
-        # to ensure that each part of the overlapping area has feature points selected
         sorted_id = sorted(range(len(kp)), key=lambda x: -kp[x].response)
         kp = list(kp)
         kp = (sorted(kp, key=lambda x: -x.response))
