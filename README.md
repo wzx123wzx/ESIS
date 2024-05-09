@@ -5,7 +5,7 @@ You can find our paper [here](https://github.com/).
 If you find this method and the paper interesting and useful for your research, please cite us using the following bibliography.
 This README contains instructions on how to get the data that were used in the paper, install dependencies, and run our code.
 # Data
-You can use UAV image dataset from Dronemapper website [at this link](https://dronemapper.com/sample_data/) to test our code.
+You can use UAV image dataset from Dronemapper website [at this link](https://dronemapper.com/sample_data/) or your own dataset with GPS information to test our code.
 # Requirements and Installation
 Our code is implemented on a linux system with 236 GB of RAM.
 In order to run our code, you need to make sure that you have all the required python packages and enough RAM. 
