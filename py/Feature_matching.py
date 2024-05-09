@@ -1,6 +1,5 @@
 import os
 import cv2
-import math
 import multiprocessing
 import pickle
 import cv_utils
@@ -9,6 +8,7 @@ import RANSAC
 
 
 def matching_points_origin_top(matching_points_origin, points_num):
+    # select top points_num inliers
     match_num = len(matching_points_origin)
     matching_points_top = []
     for match_index in range(match_num):
@@ -20,84 +20,6 @@ def matching_points_origin_top(matching_points_origin, points_num):
         matching_points_top[match_index][3, :] = matching_points_origin_match_index[3, 0:points_num]
 
     return matching_points_top
-
-
-def uni_matching_points(matching_points, points_num, mesh_x, mesh_y):
-    x0 = matching_points[0, :]
-    y0 = matching_points[1, :]
-    x1 = matching_points[2, :]
-    y1 = matching_points[3, :]
-
-    # obtain the overlapped area
-    min_x0 = x0.min()
-    max_x0 = x0.max()
-    min_y0 = y0.min()
-    max_y0 = y0.max()
-
-    # mesh the overlapped area
-    mesh_x_arr = np.linspace(start=min_x0, stop=max_x0, num=mesh_x + 1)
-    mesh_y_arr = np.linspace(start=min_y0, stop=max_y0, num=mesh_y + 1)
-
-    # select 1 matching points from each cell
-    total_points_num = len(x0)
-    x0_even = []
-    x1_even = []
-    y0_even = []
-    y1_even = []
-    select_index = 0
-    select_list = np.zeros(total_points_num)
-    find_block = np.zeros((mesh_x, mesh_y))
-    select_block = np.zeros((mesh_x, mesh_y))
-    tar_points_num = math.floor(points_num / mesh_x / mesh_y)
-    for point_index in range(total_points_num):
-        for i in range(mesh_x):
-            for j in range(mesh_y):
-                if mesh_x_arr[i] <= x0[point_index] < mesh_x_arr[i + 1] and mesh_y_arr[j] <= y0[point_index] < \
-                        mesh_y_arr[j + 1] \
-                        and select_block[i, j] < tar_points_num:
-                    x0_even.append(x0[point_index])
-                    x1_even.append(x1[point_index])
-                    y0_even.append(y0[point_index])
-                    y1_even.append(y1[point_index])
-                    select_index = select_index + 1
-                    select_list[point_index] = 1
-                    find_block[i, j] = 1
-                    select_block[i, j] = select_block[i, j] + 1
-    # select remaining matching points to keep number of points is points_num
-    for point_index in range(total_points_num):
-        if select_index == points_num:
-            break
-        elif select_list[point_index] != 0:
-            x0_even.append(x0[point_index])
-            x1_even.append(x1[point_index])
-            y0_even.append(y0[point_index])
-            y1_even.append(y1[point_index])
-            select_index = select_index + 1
-    # completion
-    x0_even += [x0_even[-1] for i in range(points_num - len(x0_even))]
-    x1_even += [x1_even[-1] for i in range(points_num - len(x1_even))]
-    y0_even += [y0_even[-1] for i in range(points_num - len(y0_even))]
-    y1_even += [y1_even[-1] for i in range(points_num - len(y1_even))]
-    x0_even = np.array(x0_even)
-    x1_even = np.array(x1_even)
-    y0_even = np.array(y0_even)
-    y1_even = np.array(y1_even)
-    return x0_even, y0_even, x1_even, y1_even
-
-
-def matching_points_origin_uni(matching_points_origin, points_num, mesh_x, mesh_y):
-    match_num = len(matching_points_origin)
-    matching_points_uni = []
-    for match_index in range(match_num):
-        matching_points_origin_match_index = matching_points_origin[match_index]
-        x0_even, y0_even, x1_even, y1_even = uni_matching_points(matching_points_origin_match_index, points_num,
-                                                                 mesh_x, mesh_y)
-        matching_points_uni.append(np.zeros((4, points_num)))
-        matching_points_uni[match_index][0, :] = x0_even
-        matching_points_uni[match_index][1, :] = y0_even
-        matching_points_uni[match_index][2, :] = x1_even
-        matching_points_uni[match_index][3, :] = y1_even
-    return matching_points_uni
 
 
 def feature_detecting_helper(args):
