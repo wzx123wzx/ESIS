@@ -1,60 +1,69 @@
 # Name                    Version                   Build  Channel
-ca-certificates           2023.12.12           haa95532_0
-certifi                   2024.2.2         py38haa95532_0
+_libgcc_mutex             0.1                 conda_forge    conda-forge
+_openmp_mutex             4.5                       2_gnu    conda-forge
+asgiref                   3.8.0                    pypi_0    pypi
+backports-zoneinfo        0.2.1                    pypi_0    pypi
+ca-certificates           2022.9.24            ha878542_0    conda-forge
 contourpy                 1.1.1                    pypi_0    pypi
-cycler                    0.11.0                   pypi_0    pypi
+cycler                    0.12.1                   pypi_0    pypi
 cython                    3.0.8                    pypi_0    pypi
+distro                    1.9.0                    pypi_0    pypi
+django                    4.2.11                   pypi_0    pypi
 exifread                  3.0.0                    pypi_0    pypi
-fonttools                 4.38.0                   pypi_0    pypi
-gco                       2.0.2                    pypi_0    pypi
-gco-wrapper               3.0.9                    pypi_0    pypi
-git                       2.40.1               haa95532_1
+fonttools                 4.50.0                   pypi_0    pypi
 gpsphoto                  2.2.3                    pypi_0    pypi
 igraph                    0.11.4                   pypi_0    pypi
+image                     1.5.33                   pypi_0    pypi
 imageio                   2.31.2                   pypi_0    pypi
-importlib-resources       6.1.2                    pypi_0    pypi
+importlib-resources       6.4.0                    pypi_0    pypi
 intel-openmp              2021.4.0                 pypi_0    pypi
-joblib                    1.3.2                    pypi_0    pypi
 kiwisolver                1.4.5                    pypi_0    pypi
-libffi                    3.4.4                hd77b12b_0
+ld_impl_linux-64          2.39                 hc81fddc_0    conda-forge
+libffi                    3.4.2                h7f98852_5    conda-forge
+libgcc-ng                 12.2.0              h65d4601_19    conda-forge
+libgomp                   12.2.0              h65d4601_19    conda-forge
+libnsl                    2.0.0                h7f98852_0    conda-forge
+libsqlite                 3.40.0               h753d276_0    conda-forge
+libstdcxx-ng              12.2.0              h46fd767_19    conda-forge
+libzlib                   1.2.13               h166bdaf_4    conda-forge
 matplotlib                3.7.0                    pypi_0    pypi
 maxflow                   0.0.1                    pypi_0    pypi
 mkl                       2021.4.0                 pypi_0    pypi
-networkx                  2.6.3                    pypi_0    pypi
+ncurses                   6.4                  h6a678d5_0    defaults
+networkx                  3.1                      pypi_0    pypi
 numpy                     1.20.0                   pypi_0    pypi
 opencv-contrib-python     4.9.0.80                 pypi_0    pypi
-opencv-python             4.0.1.24                 pypi_0    pypi
-openssl                   3.0.13               h2bbff1b_0
-packaging                 23.2                     pypi_0    pypi
+opencv-python             4.9.0.80                 pypi_0    pypi
+openssl                   3.0.13               h7f8727e_0    defaults
+packaging                 24.0                     pypi_0    pypi
 piexif                    1.1.3                    pypi_0    pypi
 pillow                    8.3.2                    pypi_0    pypi
-pip                       24.0                     pypi_0    pypi
+pip                       22.3.1             pyhd8ed1ab_0    conda-forge
 ply                       3.11                     pypi_0    pypi
-pyclipper                 1.3.0.post5              pypi_0    pypi
 pygco                     0.0.16                   pypi_0    pypi
-pygraph                   0.2.1                    pypi_0    pypi
 pymap3d                   2.9.1                    pypi_0    pypi
 pymaxflow                 1.3.0                    pypi_0    pypi
-pyparsing                 3.1.1                    pypi_0    pypi
-python                    3.8.18               h1aa4202_0
-python-dateutil           2.8.2                    pypi_0    pypi
-pyvoronoi                 1.0.253                  pypi_0    pypi
-pywavelets                1.1.1                    pypi_0    pypi
+pyparsing                 3.1.2                    pypi_0    pypi
+python                    3.8.18               h955ad1f_0    defaults
+python-dateutil           2.9.0.post0              pypi_0    pypi
+pywavelets                1.4.1                    pypi_0    pypi
+readline                  8.1.2                h0f457ee_0    conda-forge
+scikit-build              0.17.6                   pypi_0    pypi
 scikit-image              0.17.2                   pypi_0    pypi
-scikit-learn              1.0.1                    pypi_0    pypi
 scipy                     1.5.0                    pypi_0    pypi
-setuptools                68.2.2           py38haa95532_0
+setuptools                65.5.1             pyhd8ed1ab_0    conda-forge
 six                       1.16.0                   pypi_0    pypi
-smop                      0.41                     pypi_0    pypi
-sqlite                    3.41.2               h2bbff1b_0
+sqlite                    3.41.2               h5eee18b_0    defaults
+sqlparse                  0.4.4                    pypi_0    pypi
 tbb                       2021.11.0                pypi_0    pypi
-tee                       0.0.3                    pypi_0    pypi
 texttable                 1.7.0                    pypi_0    pypi
 threadpoolctl             3.1.0                    pypi_0    pypi
-tifffile                  2021.11.2                pypi_0    pypi
-typing-extensions         4.7.1                    pypi_0    pypi
-vc                        14.2                 h21ff451_1
-vlfeat                    0.9.20            h2fa13f4_1002    conda-forge
-vs2015_runtime            14.27.29016          h5e58377_2
-wheel                     0.41.2           py38haa95532_0
+tifffile                  2023.7.10                pypi_0    pypi
+tk                        8.6.12               h27826a3_0    conda-forge
+tomli                     2.0.1                    pypi_0    pypi
+typing-extensions         4.10.0                   pypi_0    pypi
+vc                        2018.7.10                pypi_0    pypi
+wheel                     0.41.2                   pypi_0    pypi
+xz                        5.4.6                h5eee18b_0    defaults
 zipp                      3.17.0                   pypi_0    pypi
+zlib                      1.2.13               h166bdaf_4    conda-forge
