@@ -8,7 +8,7 @@ In order to run our code, you need to make sure that you have all the required p
 You can find the list of packages we installed on our conda environment at [this text file](requirements.txt). 
 It is very important to install the same versions of some of these packages in order for the code to run.
 # Configurations
-You can change our settings in the Settings_manager.py.
+You can change our settings in the [Settings_manager.py](Settings_manager.py).
 # Running
-Set "images_path" in the MAIN.py with your dataset path.
+Set "images_path" in the [MAIN.py](MAIN.py) with your dataset path.
 Make sure that your image have GPS information.
