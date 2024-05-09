@@ -1,7 +1,8 @@
 # Efficient Superpixel-based Large-scale Image Stitching
 A novel method for stitchig large-scale high resolution images while being robust to drift and inconsistencies. 
 # Data
-We use UAV image dataset from Dronemapper website [at this link](https://dronemapper.com/sample data/).
+We use UAV image dataset from Dronemapper website [at this link](https://dronemapper.com/sample_data/).
+[百度跳转]([http://www.baidu.com/](https://dronemapper.com/sample_data/))
 # Requirements and Installation
 Currently, there are no installation scripts for this repo. 
 In order to run our code, you need to make sure that you have all the required python packages and files, and set correct configurations. 
