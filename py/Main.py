@@ -1,5 +1,5 @@
 # Large-scale Image Stitching based on Global Registration Optimization and Multi-frame Graph-cut at Superpixel level
-# Wang zx
+# wzx
 import sys
 import cv2
 import Feature_matching
