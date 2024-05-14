@@ -1,8 +1,7 @@
 # Efficient Superpixel-based Large-scale Image Stitching
 A novel method for stitchig large-scale high resolution images with robust registration and efficient graph-cut.
 You can find our paper [here](https://github.com/).
-![workflow](https://github.com/wzx123wzx/Large-scale-image-stitching/assets/71632237/06ef2f05-6d61-4035-81be-ae250b551dac)
-
+[workflow.pdf](https://github.com/wzx123wzx/Large-scale-image-stitching/files/15306598/workflow.pdf)
 
 If you find this method and the paper interesting and useful for your research, please cite us using the [bibliography](ours_ref.bib).
 
