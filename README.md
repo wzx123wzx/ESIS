@@ -50,19 +50,23 @@ This README contains instructions on how to get the data that were used in the p
   </tr>
 </table>
 
-| \multirow{2}{*}{Measure}                          | \multirow{2}{*}{Methods}     | \multicolumn{5}{c}{Datasets} |
-|---------------------------------------------------|------------------------------|------------------------------|
-|                                                   |                              | Gregg1\_2                    | Golf Course    | 4thAveReservoir | AdobeButtes1   | AdobeButtes2   |
-| \multirow{3}{*}{RMSE(pixels)}                     | MGRAPH                       | 7.57                         | 3.81           | 2.60            | 2.27           | 5.91           |
-|                                                   | MegaStitch                   | 2.31                         | 1.65           | 1.94            | 1.52           | 1.51           |
-|                                                   | Ours                         | \textbf{2.23}                | \textbf{1.52}  | \textbf{1.62}   | \textbf{1.41}  | \textbf{1.47}  |
-| \multirow{3}{*}{Transformation Optimization Time} | MGRAPH                       | 16m43s                       | 5h13m25s       | 3m14s           | 16m14s         | 1h28m58s       |
-|                                                   | MegaStitch                   | 21s                          | 6m30s          | 3s              | 9s             | 1m59s          |
-|                                                   | Ours                         | \textbf{7s}                  | \textbf{4m4s}  | \textbf{1s}     | \textbf{4s}    | \textbf{31s}   |
-| \multirow{4}{*}{Optimization Term Number}         | MGRAPH                       | 21246                        | 88268          | 9812            | 20534          | 46547          |
-|                                                   | MegaStitch affine            | 28826                        | 118194         | 13426           | 27708          | 62650          |
-|                                                   | MegaStitch bundle adjustment | 14410                        | 59094          | 6710            | 13851          | 31322          |
-|                                                   | Ours                         | \textbf{13520}               | \textbf{56960} | \textbf{6320}   | \textbf{12400} | \textbf{29920} |
+:::: table*
+::: center
+               Measure                          Methods              Datasets                                                  
+  ---------------------------------- ------------------------------ ----------- ------------- ----------------- -------------- --------------
+                 3-7                                                 Gregg1_2    Golf Course   4thAveReservoir   AdobeButtes1   AdobeButtes2
+             RMSE(pixels)                        MGRAPH                7.57         3.81            2.60             2.27           5.91
+                                               MegaStitch              2.31         1.65            1.94             1.52           1.51
+                                                  Ours               **2.23**     **1.52**        **1.62**         **1.41**       **1.47**
+   Transformation Optimization Time              MGRAPH               16m43s      5h13m25s          3m14s           16m14s        1h28m58s
+                                               MegaStitch               21s         6m30s            3s               9s           1m59s
+                                                  Ours                **7s**      **4m4s**         **1s**           **4s**        **31s**
+       Optimization Term Number                  MGRAPH                21246        88268           9812            20534          46547
+                                           MegaStitch affine           28826       118194           13426           27708          62650
+                                      MegaStitch bundle adjustment     14410        59094           6710            13851          31322
+                                                  Ours               **13520**    **56960**       **6320**        **12400**      **29920**
+:::
+::::
 
 
 
