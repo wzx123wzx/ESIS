@@ -91,6 +91,144 @@ This README contains instructions on how to get the data that were used in the p
   </tr>
 </table>
 
+<table style="width:100%">
+  <tr>
+    <th>Dataset</th>
+    <th>MGRAPH</th>
+    <th>MegaStitch</th>
+    <th>Ours</th>
+  </tr>
+   </tr>
+  <tr>
+    <td>Gregg</td>
+    <td>16m43s</td>
+    <td>21s</td>
+    <td><b>7s</b></td>
+  </tr>
+  <tr>
+    <td>Golf Course</td>
+    <td>5h13m25s</td>
+    <td>6m30s</td>
+    <td><b>4m4s</b></td>
+  </tr>
+  <tr>
+    <td>4thAveReservoir</td>
+    <td>3m14s</td>
+    <td>3s</td>
+    <td><b>1s</b></td>
+  </tr>
+  <tr>
+    <td>AdobeButtes1</td>
+    <td>16m14s</td>
+    <td>9s</td>
+    <td><b>4s</b></td>
+  </tr>
+  <tr>
+    <td>AdobeButtes2</td>
+    <td>1h28m58s</td>
+    <td>1m59s</td>
+    <td><b>31s</b></td>
+  </tr>
+</table>
+
+<table style="width:100%">
+  <tr>
+    <th>Dataset</th>
+    <th>MGRAPH</th>
+    <th>MegaStitch affine</th>
+    <th>MegaStitch bundle adjustment</th>
+    <th>Ours</th>
+  </tr>
+   </tr>
+  <tr>
+    <td>Gregg</td>
+    <td>21246</td>
+    <td>28826</td>
+    <td>14410</td>
+    <td><b>13520</b></td>
+  </tr>
+  <tr>
+    <td>Golf Course</td>
+    <td>88268</td>
+    <td>118194</td>
+    <td>59094</td>
+    <td><b>16960</b></td>
+  </tr>
+  <tr>
+    <td>4thAveReservoir</td>
+    <td>9812</td>
+    <td>13426</td>
+    <td>6710</td>
+    <td><b>6320</b></td>
+  </tr>
+  <tr>
+    <td>AdobeButtes1</td>
+    <td>20534</td>
+    <td>27708</td>
+    <td>13851</td>
+    <td><b>12400</b></td>
+  </tr>
+  <tr>
+    <td>AdobeButtes2</td>
+    <td>46567</td>
+    <td>62650</td>
+    <td>31322</td>
+    <td><b>29920</b></td>
+  </tr>
+</table>
+
+<table style="width:100%">
+  <tr>
+    <th>Dataset</th>
+    <th>Metashape</th>
+    <th>Jia's (frame-to-frame implementation)</th>
+    <th>Enblend</th>
+    <th>Ours (S=10000)</th>
+    <th>Ours (S=20000)</th>
+  </tr>
+   </tr>
+  <tr>
+    <td>Gregg</td>
+    <td>42m45s</td>
+    <td>18m11s</td>
+    <td>8m4s</td>
+    <td>4m38s</td>
+    <td><b>3m51s</b></td>
+  </tr>
+  <tr>
+    <td>Golf Course</td>
+    <td>2h28m58s</td>
+    <td>1h14m4s</td>
+    <td>30m46s</td>
+    <td>13m1s</td>
+    <td><b>7m38s</b></td>
+  </tr>
+  <tr>
+    <td>4thAveReservoir</td>
+    <td>17m3s</td>
+    <td>6m16s</td>
+    <td>4m19s</td>
+    <td>2m23s</td>
+    <td><b>1m28s</b></td>
+  </tr>
+  <tr>
+    <td>AdobeButtes1</td>
+    <td>29m45s</td>
+    <td>8m9s</td>
+    <td>7m42s</td>
+    <td>2m14s</td>
+    <td><b>2m1s</b></td>
+  </tr>
+  <tr>
+    <td>AdobeButtes2</td>
+    <td>1h14m6s</td>
+    <td>39m40s</td>
+    <td>16m27s</td>
+    <td>9m6s</td>
+    <td><b>6m20s</b></td>
+  </tr>
+</table>
+
 # Data
 You can use UAV image dataset from Dronemapper website [at this link](https://dronemapper.com/sample_data/) or your own dataset with GPS information to test our code.
 
