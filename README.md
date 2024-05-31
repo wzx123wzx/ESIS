@@ -13,7 +13,39 @@ If you find this method and the paper interesting and useful for your research, 
 }
 
 ```
-
+# Performance
+ <table style="width:100%">
+  <tr>
+    <th></th>
+    <th>Illumination changes</th>
+    <th>Viewpoint changes</th>
+  </tr>
+  <tr>
+    <td>SuperPoint (our implementation)</td>
+    <td><b>0.662</b></td>
+    <td>0.674</td>
+  </tr>
+  <tr>
+    <td>SuperPoint</td>
+    <td>0.641</td>
+    <td>0.621</td>
+  </tr>
+  <tr>
+    <td>FAST</td>
+    <td>0.576</td>
+    <td>0.625</td>
+  </tr>
+  <tr>
+    <td>Harris</td>
+    <td>0.630</td>
+    <td><b>0.755</b></td>
+  </tr>
+  <tr>
+    <td>Shi</td>
+    <td>0.584</td>
+    <td>0.629</td>
+  </tr>
+</table>
 This README contains instructions on how to get the data that were used in the paper, install dependencies, and run our code.
 # Data
 You can use UAV image dataset from Dronemapper website [at this link](https://dronemapper.com/sample_data/) or your own dataset with GPS information to test our code.
