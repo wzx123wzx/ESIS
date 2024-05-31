@@ -16,41 +16,8 @@ If you find this method and the paper interesting and useful for your research, 
 This README contains instructions on how to get the data that were used in the paper, install dependencies, and run our code.
 
 # Performance
- <table style="width:100%">
-  <tr>
-    <th>Dataset</th>
-    <th>Number of images</th>
-    <th>Number of matching image pair</th>
-  </tr>
-   </tr>
-  <tr>
-    <td>Gregg</td>
-    <td>187</td>
-    <td>338</td>
-  </tr>
-  <tr>
-    <td>Golf Course</td>
-    <td>664</td>
-    <td>1424</td>
-  </tr>
-  <tr>
-    <td>4thAveReservoir</td>
-    <td>82</td>
-    <td>158</td>
-  </tr>
-  <tr>
-    <td>AdobeButtes1</td>
-    <td>160</td>
-    <td>310</td>
-  </tr>
-  <tr>
-    <td>AdobeButtes2</td>
-    <td>371</td>
-    <td>748</td>
-  </tr>
-</table>
 
- <table style="width:100%">
+<table style="width:100%">
   <tr>
     <th>Dataset</th>
     <th>MGRAPH</th>
@@ -85,7 +52,44 @@ This README contains instructions on how to get the data that were used in the p
   </tr>
 </table>
 
-
+<table style="width:100%">
+  <tr>
+    <th>Dataset</th>
+    <th>Number of images</th>
+    <th>Number of matching image pair</th>
+  </tr>
+   </tr>
+  <tr>
+    <td>Gregg</td>
+    <td>7.57</td>
+    <td>2.31</td>
+    <td><b>2.23</b></td>
+  </tr>
+  <tr>
+    <td>Golf Course</td>
+    <td>3.81</td>
+    <td>1.65</td>
+    <td><b>1.52</b></td>
+  </tr>
+  <tr>
+    <td>4thAveReservoir</td>
+    <td>2.60</td>
+    <td>1.94</td>
+    <td><b>1.62</b></td>
+  </tr>
+  <tr>
+    <td>AdobeButtes1</td>
+    <td>2.27</td>
+    <td>1.52</td>
+    <td><b>1.41</b></td>
+  </tr>
+  <tr>
+    <td>AdobeButtes2</td>
+    <td>5.91</td>
+    <td>1.51</td>
+    <td><b>1.47</b></td>
+  </tr>
+</table>
 
 # Data
 You can use UAV image dataset from Dronemapper website [at this link](https://dronemapper.com/sample_data/) or your own dataset with GPS information to test our code.
