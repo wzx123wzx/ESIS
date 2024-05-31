@@ -3,7 +3,16 @@ A novel method for stitchig large-scale high resolution images with robust regis
 You can find our paper [here](https://github.com/).
 ![workflow](https://github.com/wzx123wzx/Large-scale-image-stitching/assets/71632237/eb7bb039-954f-4ab0-b63e-c6176684c721)
 
-If you find this method and the paper interesting and useful for your research, please cite us using the [bibliography](ours_ref.bib).
+If you find this method and the paper interesting and useful for your research, please cite us using 
+```
+@article{zarei2021megastitch,
+  title={MegaStitch: Robust Large Scale Image Stitching},
+  author={Zarei, Ariyan and Gonzalez, Emmanuel and Merchant, Nirav and Pauli, Duke and Lyons, Eric and Barnard, Kobus},
+  year={2021},
+  publisher={TechRxiv}
+}
+
+```
 
 This README contains instructions on how to get the data that were used in the paper, install dependencies, and run our code.
 # Data
