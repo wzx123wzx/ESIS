@@ -20,9 +20,8 @@ This README contains instructions on how to get the data that were used in the p
 <table style="width:100%">
   <tr>
     <th>Dataset</th>
-    <th>MGRAPH</th>
-    <th>MegaStitch</th>
-    <th>Ours</th>
+    <th>Number of images</th>
+    <th>Number of matching image pair</th>
   </tr>
    </tr>
   <tr>
@@ -55,8 +54,9 @@ This README contains instructions on how to get the data that were used in the p
 <table style="width:100%">
   <tr>
     <th>Dataset</th>
-    <th>Number of images</th>
-    <th>Number of matching image pair</th>
+    <th>MGRAPH</th>
+    <th>MegaStitch</th>
+    <th>Ours</th>
   </tr>
    </tr>
   <tr>
