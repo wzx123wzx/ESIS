@@ -50,23 +50,40 @@ This README contains instructions on how to get the data that were used in the p
   </tr>
 </table>
 
-:::: table*
-::: center
-               Measure                          Methods              Datasets                                                  
-  ---------------------------------- ------------------------------ ----------- ------------- ----------------- -------------- --------------
-                 3-7                                                 Gregg1_2    Golf Course   4thAveReservoir   AdobeButtes1   AdobeButtes2
-             RMSE(pixels)                        MGRAPH                7.57         3.81            2.60             2.27           5.91
-                                               MegaStitch              2.31         1.65            1.94             1.52           1.51
-                                                  Ours               **2.23**     **1.52**        **1.62**         **1.41**       **1.47**
-   Transformation Optimization Time              MGRAPH               16m43s      5h13m25s          3m14s           16m14s        1h28m58s
-                                               MegaStitch               21s         6m30s            3s               9s           1m59s
-                                                  Ours                **7s**      **4m4s**         **1s**           **4s**        **31s**
-       Optimization Term Number                  MGRAPH                21246        88268           9812            20534          46547
-                                           MegaStitch affine           28826       118194           13426           27708          62650
-                                      MegaStitch bundle adjustment     14410        59094           6710            13851          31322
-                                                  Ours               **13520**    **56960**       **6320**        **12400**      **29920**
-:::
-::::
+ <table style="width:100%">
+  <tr>
+    <th>Dataset</th>
+    <th>MGRAPH</th>
+    <th>MegaStitch</th>
+    <th>Ours</th>
+  </tr>
+   </tr>
+  <tr>
+    <td>Gregg</td>
+    <td>187</td>
+    <td>338</td>
+  </tr>
+  <tr>
+    <td>Golf Course</td>
+    <td>664</td>
+    <td>1424</td>
+  </tr>
+  <tr>
+    <td>4thAveReservoir</td>
+    <td>82</td>
+    <td>158</td>
+  </tr>
+  <tr>
+    <td>AdobeButtes1</td>
+    <td>160</td>
+    <td>310</td>
+  </tr>
+  <tr>
+    <td>AdobeButtes2</td>
+    <td>371</td>
+    <td>748</td>
+  </tr>
+</table>
 
 
 
