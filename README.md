@@ -50,6 +50,16 @@ This README contains instructions on how to get the data that were used in the p
   </tr>
 </table>
 
+<table>
+<capital>RMSE and optimization time performance of MGRAPH, MegaStitch and our method.</capital>
+<tr>
+<th>rowspan=2>Datasets Measure</th>
+<th>rowspan=2>Methods</th>
+<th rowspan=2 colspan=5>Datasets</th>
+<td width="80px">限制列宽为80px超出会自动换行</td>
+</tr>
+<tr>
+</table>
 
 # Data
 You can use UAV image dataset from Dronemapper website [at this link](https://dronemapper.com/sample_data/) or your own dataset with GPS information to test our code.
