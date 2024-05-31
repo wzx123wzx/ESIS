@@ -16,7 +16,7 @@ class Configurations:
         img_tmp = cv2.imread("{}/{}".format(images_path, images_name[0]))
         self.scale = 0.2
         self.image_size = img_tmp.shape
-        self.cores_num_to_use = 10
+        self.cores_num_to_use = 6
         # parameters for feature detecting
         self.max_sift_points_num = 50000
         self.sift_point_filter_flag = True
