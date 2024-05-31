@@ -50,6 +50,7 @@ This README contains instructions on how to get the data that were used in the p
     <td>748</td>
   </tr>
 </table>
+
 ## Registration performance (RMSE) 
 <table style="width:100%">
   <tr>
@@ -90,6 +91,7 @@ This README contains instructions on how to get the data that were used in the p
     <td><b>1.47</b></td>
   </tr>
 </table>
+
 ## Registration performance (transformation optimization time) 
 <table style="width:100%">
   <tr>
@@ -130,6 +132,7 @@ This README contains instructions on how to get the data that were used in the p
     <td><b>31s</b></td>
   </tr>
 </table>
+
 ## Registration performance (optimization term number) 
 <table style="width:100%">
   <tr>
@@ -176,6 +179,7 @@ This README contains instructions on how to get the data that were used in the p
     <td><b>29920</b></td>
   </tr>
 </table>
+
 ## Blending performance (running time) 
 <table style="width:100%">
   <tr>
