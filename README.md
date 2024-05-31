@@ -16,34 +16,35 @@ If you find this method and the paper interesting and useful for your research, 
 # Performance
  <table style="width:100%">
   <tr>
-    <th></th>
-    <th>Illumination changes</th>
-    <th>Viewpoint changes</th>
+    <th>Dataset</th>
+    <th>Number of images</th>
+    <th>Number of matching image pair</th>
+  </tr>
+   </tr>
+  <tr>
+    <td>Gregg</td>
+    <td>187</td>
+    <td>338</td>
   </tr>
   <tr>
-    <td>SuperPoint (our implementation)</td>
-    <td><b>0.662</b></td>
-    <td>0.674</td>
+    <td>Golf Course</td>
+    <td>664</td>
+    <td>1424</td>
   </tr>
   <tr>
-    <td>SuperPoint</td>
-    <td>0.641</td>
-    <td>0.621</td>
+    <td>4thAveReservoir</td>
+    <td>82</td>
+    <td>158</td>
   </tr>
   <tr>
-    <td>FAST</td>
-    <td>0.576</td>
-    <td>0.625</td>
+    <td>AdobeButtes1</td>
+    <td>160</td>
+    <td>310</td>
   </tr>
   <tr>
-    <td>Harris</td>
-    <td>0.630</td>
-    <td><b>0.755</b></td>
-  </tr>
-  <tr>
-    <td>Shi</td>
-    <td>0.584</td>
-    <td>0.629</td>
+    <td>AdobeButtes2</td>
+    <td>371</td>
+    <td>748</td>
   </tr>
 </table>
 This README contains instructions on how to get the data that were used in the paper, install dependencies, and run our code.
