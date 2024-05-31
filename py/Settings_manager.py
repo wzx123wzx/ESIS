@@ -22,7 +22,7 @@ class Configurations:
         self.sift_point_filter_flag = True
         self.min_sift_points_num = 30
         # parameters for feature matching
-        self.perc_next_match = 0.7
+        self.perc_next_match = 0.7 # parameter of flann algorithm
         self.do_ransac = True
         self.ransac_max_trials = 100
         self.ransac_min_samples = 4  # minimum number of matching point pair to estimate transformation
@@ -31,10 +31,10 @@ class Configurations:
         self.ransac_stop_probability = 0.95
         self.ransac_save_ransac_result = False
         # parameters for matching points selection
-        self.selected_points_num = 20
-        self.mesh_x = 4
+        self.selected_points_num = 20 # number of selected matching points for each matching image pair (used to construct our registration function)
+        self.mesh_x = 4 # mesh grid for matching point selection (not used)
         self.mesh_y = 5
         # parameters for multi-frame graph cut
         self.slic_compactness = 10  # large value tend to make superpixel square
         self.slic_num_pixels_per_superpixel = 1000  # tend to set a large value
-        self.max_coverage = 2
+        self.max_coverage = 2 # max number of coverage for each superpixel
