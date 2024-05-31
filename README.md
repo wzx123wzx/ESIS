@@ -248,6 +248,6 @@ Then, set your configuration in the [Settings_manager.py](py/Settings_manager.py
 
 # Reference
 
-1. J. J. Ruiz, F. Caballero, and L. Merino, “Mgraph: A multigraph homography method to generate incremental mosaics in real-time from uav swarms,” IEEE Robotics and Automation Letters, vol. 3, no. 4, pp. 2838–2845, 2018.
+1. Ruiz, J.J., Caballero, F., & Merino, L. (2018). MGRAPH: A Multigraph Homography Method to Generate Incremental Mosaics in Real-Time From UAV Swarms. IEEE Robotics and Automation Letters, 3, 2838-2845.
 
-2. A. Zarei, E. Gonzalez, N. Merchant, D. Pauli, E. Lyons, and K. Barnard, “Megastitch: Robust large-scale image stitching,” IEEE Transactions on Geoscience and Remote Sensing, vol. 60, pp. 1–9, 2022.
+2. Zarei, A., Gonzalez, E., Merchant, N., Pauli, D., Lyons, E., & Barnard, K. (2022). MegaStitch: Robust Large-Scale Image Stitching. IEEE Transactions on Geoscience and Remote Sensing, 60, Article 4408309. https://doi.org/10.1109/TGRS.2022.3141907
