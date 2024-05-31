@@ -246,4 +246,8 @@ It is very important to install the same versions of some of these packages in o
 Set "images_path" in the [Main.py](py/Main.py) with your dataset path (make sure that there are only images in your folder and the image has GPS information).
 Then, set your configuration in the [Settings_manager.py](py/Settings_manager.py) and run our [Main.py](py/Main.py).
 
-[1]: Author, A. (Year). Title of the paper. Journal Name, Volume(Issue), Page numbers.
+# Reference
+
+1. J. J. Ruiz, F. Caballero, and L. Merino, “Mgraph: A multigraph homography method to generate incremental mosaics in real-time from uav swarms,” IEEE Robotics and Automation Letters, vol. 3, no. 4, pp. 2838–2845, 2018.
+
+2. A. Zarei, E. Gonzalez, N. Merchant, D. Pauli, E. Lyons, and K. Barnard, “Megastitch: Robust large-scale image stitching,” IEEE Transactions on Geoscience and Remote Sensing, vol. 60, pp. 1–9, 2022.
