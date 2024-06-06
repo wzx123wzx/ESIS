@@ -204,3 +204,11 @@ Then, set your configuration in the [Settings_manager.py](py/Settings_manager.py
 1. Ruiz, J.J., Caballero, F., & Merino, L. (2018). MGRAPH: A Multigraph Homography Method to Generate Incremental Mosaics in Real-Time From UAV Swarms. IEEE Robotics and Automation Letters, 3, 2838-2845.
 
 2. Zarei, A., Gonzalez, E., Merchant, N., Pauli, D., Lyons, E., & Barnard, K. (2022). MegaStitch: Robust Large-Scale Image Stitching. IEEE Transactions on Geoscience and Remote Sensing, 60, Article 4408309. https://doi.org/10.1109/TGRS.2022.3141907
+
+3. Agisoft, “Agisoft metashape.” [Online]. Available: https://www.agisoft.cn
+
+4. A. Mihal, “Enblend.” [Online]. Available: https://sourceforge.net/projects/enblend/
+
+5. Q. Jia, Z. Li, X. Fan, H. Zhao, S. Teng, X. Ye, and L. J. Latecki, “Leveraging line-point consistence to preserve structures for wide parallax image stitching,” in 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2021, pp. 12 181–12 190.
+
+6. “Dronemapper,” accessed: June. 12, 2023. [Online]. Available: https://dronemapper.com/sample data/
