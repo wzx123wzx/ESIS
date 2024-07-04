@@ -39,6 +39,53 @@ You can find our paper [here](https://github.com/).
   </tr>
 </table>
 
+## Optimization term number
+<table style="width:100%">
+  <tr>
+    <th>Dataset</th>
+    <th>MGRAPH</th>
+    <th>MegaStitch affine</th>
+    <th>MegaStitch bundle adjustmnet</th>
+    <th>Ours</th>
+  </tr>
+   </tr>
+  <tr>
+    <td>Gregg</td>
+    <td>21246</td>
+    <td>28826</td>
+    <td>14410</td>
+    <td><b>13520</b></td>
+  </tr>
+  <tr>
+    <td>Golf Course</td>
+    <td>88268</td>
+    <td>118194</td>
+    <td>59094</td>
+    <td><b>56960</b></td>
+  </tr>
+  <tr>
+    <td>4thAveReservoir</td>
+    <td>9812</td>
+    <td>13426</td>
+    <td>6710</td>
+    <td><b>6320</b></td>
+  </tr>
+  <tr>
+    <td>AdobeButtes1</td>
+    <td>20534</td>
+    <td>27708</td>
+    <td>13851</td>
+    <td><b>12400</b></td>
+  </tr>
+  <tr>
+    <td>AdobeButtes2</td>
+    <td>46547</td>
+    <td>62650</td>
+    <td>31322</td>
+    <td><b>29920</b></td>
+  </tr>
+</table>
+
 ## Registration performance (RMSE) 
 <table style="width:100%">
   <tr>
