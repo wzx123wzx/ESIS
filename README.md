@@ -96,6 +96,7 @@ You can find our paper [here](https://github.com/).
 <table style="width:100%">
   <tr>
     <th>Dataset</th>
+    <th>MUAV</th>
     <th>MGRAPH</th>
     <th>MegaStitch</th>
     <th>Ours</th>
@@ -103,30 +104,35 @@ You can find our paper [here](https://github.com/).
    </tr>
   <tr>
     <td>Gregg</td>
+    <td>6.13</td>
     <td>7.57</td>
     <td>2.31</td>
     <td><b>2.23</b></td>
   </tr>
   <tr>
     <td>Golf Course</td>
+    <td>3.51</td>
     <td>3.81</td>
     <td>1.65</td>
     <td><b>1.52</b></td>
   </tr>
   <tr>
     <td>4thAveReservoir</td>
+    <td>2.94</td>
     <td>2.60</td>
     <td>1.94</td>
     <td><b>1.62</b></td>
   </tr>
   <tr>
     <td>AdobeButtes1</td>
+    <td>2.06</td>
     <td>2.27</td>
     <td>1.52</td>
     <td><b>1.41</b></td>
   </tr>
   <tr>
     <td>AdobeButtes2</td>
+    <td>3.28</td>
     <td>5.91</td>
     <td>1.51</td>
     <td><b>1.47</b></td>
@@ -137,6 +143,7 @@ You can find our paper [here](https://github.com/).
 <table style="width:100%">
   <tr>
     <th>Dataset</th>
+    <th>MUAV</th>
     <th>MGRAPH</th>
     <th>MegaStitch</th>
     <th>Ours</th>
@@ -144,30 +151,35 @@ You can find our paper [here](https://github.com/).
    </tr>
   <tr>
     <td>Gregg</td>
+    <td>14m2s</td>
     <td>16m43s</td>
     <td>21s</td>
     <td><b>7s</b></td>
   </tr>
   <tr>
     <td>Golf Course</td>
+    <td>4h45m34s</td>
     <td>5h13m25s</td>
     <td>6m30s</td>
     <td><b>4m4s</b></td>
   </tr>
   <tr>
     <td>4thAveReservoir</td>
+    <td>4m10s</td>
     <td>3m14s</td>
     <td>3s</td>
     <td><b>1s</b></td>
   </tr>
   <tr>
     <td>AdobeButtes1</td>
+    <td>15m18s</td>
     <td>16m14s</td>
     <td>9s</td>
     <td><b>4s</b></td>
   </tr>
   <tr>
     <td>AdobeButtes2</td>
+    <td>58m53s</td>
     <td>1h28m58s</td>
     <td>1m59s</td>
     <td><b>31s</b></td>
