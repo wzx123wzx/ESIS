@@ -146,6 +146,7 @@ You can find our paper [here](https://github.com/).
     <th>MUAV</th>
     <th>MGRAPH</th>
     <th>MegaStitch</th>
+    <th>MetaShape*</th>
     <th>Ours</th>
   </tr>
    </tr>
@@ -154,6 +155,7 @@ You can find our paper [here](https://github.com/).
     <td>14m2s</td>
     <td>16m43s</td>
     <td>21s</td>
+    <td>1m46s</td>
     <td><b>7s</b></td>
   </tr>
   <tr>
@@ -161,6 +163,7 @@ You can find our paper [here](https://github.com/).
     <td>4h45m34s</td>
     <td>5h13m25s</td>
     <td>6m30s</td>
+    <td>12m1s</td>
     <td><b>4m4s</b></td>
   </tr>
   <tr>
@@ -168,6 +171,7 @@ You can find our paper [here](https://github.com/).
     <td>4m10s</td>
     <td>3m14s</td>
     <td>3s</td>
+    <td>1m11s</td>
     <td><b>1s</b></td>
   </tr>
   <tr>
@@ -175,6 +179,7 @@ You can find our paper [here](https://github.com/).
     <td>15m18s</td>
     <td>16m14s</td>
     <td>9s</td>
+    <td>2m19s</td>
     <td><b>4s</b></td>
   </tr>
   <tr>
@@ -182,6 +187,7 @@ You can find our paper [here](https://github.com/).
     <td>58m53s</td>
     <td>1h28m58s</td>
     <td>1m59s</td>
+    <td>6m29s</td>
     <td><b>31s</b></td>
   </tr>
 </table>
