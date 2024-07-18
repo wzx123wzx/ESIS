@@ -2,7 +2,7 @@
 A novel method for stitchig large-scale high resolution images with robust registration and efficient graph-cut.
 You can find our paper [here](https://github.com/).
 ![workflow](https://github.com/wzx123wzx/Large-scale-image-stitching/assets/71632237/eb7bb039-954f-4ab0-b63e-c6176684c721)
-![Visual_comparison_Golf_Course]
+![image](Visual_comparison_Golf_Course.png)
 
 # Registration Performance
 ## Dataset details
