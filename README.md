@@ -191,6 +191,7 @@ You can find our paper [here](https://github.com/).
     <td><b>31s</b></td>
   </tr>
 </table>
+* Running time of MetaShape "align images" step, which include feature feature extraction and matching. Thus, this part of time is for reference only.
 
 ## Blending performance (running time) 
 <table style="width:100%">
