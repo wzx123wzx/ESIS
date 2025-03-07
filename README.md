@@ -57,6 +57,12 @@ It is very important to install the same versions of some of these packages in o
 Set "images_path" in the [Main.py](py/Main.py) with your dataset path (make sure that there are only images in your folder and the image has GPS information).
 Then, set your configuration in the [Settings_manager.py](py/Settings_manager.py) and run [Main.py](py/Main.py).
 
+## Fast to test our code
+
+1. modify the "images_path" with test_data, slic_num_pixels_per_superpixel with 1000 in constant.py
+
+2. run Main.py
+
 # Cite our paper
 If you find this method and the paper interesting and useful for your research, please cite our paper using 
 ```
@@ -70,8 +76,6 @@ If you find this method and the paper interesting and useful for your research, 
   pages={1-1},
   keywords={Optimization;Image stitching;Image segmentation;Image color analysis;Complexity theory;Minimization;Autonomous aerial vehicles;Remote sensing;Labeling;Costs;Multiple image stitching;seamline detection;superpixel segmentation;multi-label optimization;unmanned aerial vehicle (UAV) image},
   doi={10.1109/LGRS.2025.3548266}}
-
-
 ```
 
 # Reference
