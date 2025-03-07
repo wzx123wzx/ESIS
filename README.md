@@ -49,7 +49,7 @@ we only show our results of Golf Course dataset in the paper.
 Here, we provide our detailed results on 5 test datasets.
 Please refer to [Our_results](Our_results).
 
-# How to use our code
+# How to test our code
 ## Data
 You can use UAV image dataset from Dronemapper website [at this link](https://dronemapper.com/sample_data/) or your own dataset with GPS information to test our code.
 
