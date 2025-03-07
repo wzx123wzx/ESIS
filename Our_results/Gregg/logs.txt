@@ -1,0 +1,38 @@
+---------------image scaling---------------
+number of images: 187
+parallel image scaling, running time: 0:00:06.875592
+---------------matching image pair generation---------------
+number of matching image pair: 347
+generate matching image pair, running time: 0:00:01.415453
+---------------feature extraction---------------
+parallel feature extraction, running time: 0:00:07.863759
+---------------feature matching---------------
+parallel feature matching, running time: 0:00:38.165538
+---------------matching points selection---------------
+select sift matching points, running time: 0:00:00.002192
+---------------transformation optimization---------------
+---------------linear affine transformation optimization---------------
+   Iteration        Cost      Cost reduction    Step norm     Optimality   
+       0         1.3543e+07                                    4.72e+06    
+       1         5.4816e+04      1.35e+07       1.35e+04       6.36e+00    
+       2         5.4802e+04      1.40e+01       1.41e+00       7.90e-04    
+       3         5.4802e+04      2.79e-03       1.18e-03       5.32e-09    
+       4         5.4802e+04      2.92e-10       1.61e-04       4.09e-09    
+The relative change of the cost function is less than `tol`.
+Number of iterations 5, initial cost 1.3543e+07, final cost 5.4802e+04, first-order optimality 4.09e-09.
+linear affine transformation optimization, running time: 0:00:08.169208
+projection RMSE of affine transformation: 2.830538091404715
+---------------stitch aligned images---------------
+stitch aligned images, running time: 0:00:26.967115
+---------------multi-frame graph-cut---------------
+parallel calculate the center of the warped images, running time: 0:00:01.387899
+initial weighted blending, running time: 0:00:34.643884
+refine superpixel segmentation and calculate image index range for each superpixel, running time: 0:00:38.927410
+generate adjacent matrix of superpixel, running time: 0:00:37.265212
+calculate the smooth term cost for all overlapping image pairs, running time: 0:01:52.897404
+calculate the smooth cost for each adjacent superpixel pair, running time: 0:00:57.462801
+superpixel level multiple label optimization, running time: 0:00:00.174350
+generate mosaic fused by optimal superpixel distribution, running time: 0:00:09.293292
+superpixel based multi-frame graph-cut, running time: 0:05:59.027531
+total running time: 448.9264225959778s
+done
