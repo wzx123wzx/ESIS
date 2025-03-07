@@ -1,12 +1,12 @@
 # Efficient Superpixel-based Seamline Detection for Large-scale Image Stitching
-A novel method for stitchig large-scale high resolution images with robust registration and efficient graph-cut.
+A novel method for stitchig large-scale high resolution images with robust registration and efficient seamline detection.
 You can find our paper [here](https://ieeexplore.ieee.org/document/10912483).
 ![image](workflow.png)
 
 # About Registration
 We have implemented an efficient linear affine registration optimization algorithm, 
 but due to space limitations, 
-it is not described in detail in this paper.
+it is not described in this paper.
 It's an important pre-step for our seamline detection method,
 please refer to [here](https://github.com/wzx123wzx/ESIS-Registration-Part) for more details about our registration optimization algorithm.
 
@@ -43,6 +43,12 @@ We evaluate our algorithm on 5 image datasets, which are all captured by Phantom
   </tr>
 </table>
 
+# 
+Due to space limitation,
+we only show our results of Golf Course dataset in the paper.
+Here, we provide our detailed results on 5 test datasets.
+Please refer to [Our_results](py/Main.py).
+
 # How to use our code
 ## Data
 You can use UAV image dataset from Dronemapper website [at this link](https://dronemapper.com/sample_data/) or your own dataset with GPS information to test our code.
@@ -59,9 +65,11 @@ Then, set your configuration in the [Settings_manager.py](py/Settings_manager.py
 
 ## Fast to test our code
 
-1. modify the "images_path" with test_data, slic_num_pixels_per_superpixel with 1000 in constant.py
+1. modify the "images_path" with test_data, "slic_num_pixels_per_superpixel" with 1000 in constant.py
 
 2. run Main.py
+
+And then you'll get the stitching results of a small dataset (4 images) in 20s.
 
 # Cite our paper
 If you find this method and the paper interesting and useful for your research, please cite our paper using 
