@@ -12,7 +12,7 @@ please refer to [here](https://github.com/wzx123wzx/ESIS-Registration-Part) for 
 
 And you can also use other algorithms to generate aligned images as input data to test our seamline detection method.
 
-## Dataset details
+# Dataset details
 We evaluate our algorithm on 5 image datasets, which are all captured by Phantom 3 Advanced drone with resolution of 4000 × 3000 and available in Dronemapper website[6]. We also propose an efficient matching image pair selection method. The image number is shown following.
 
 <table style="width:100%">
@@ -43,6 +43,20 @@ We evaluate our algorithm on 5 image datasets, which are all captured by Phantom
   </tr>
 </table>
 
+# How to use our code
+## Data
+You can use UAV image dataset from Dronemapper website [at this link](https://dronemapper.com/sample_data/) or your own dataset with GPS information to test our code.
+
+## Requirements and Installation
+Our code is implemented on a linux system.
+In order to run our code, you need to make sure that you have all the required python packages and enough RAM. 
+You can find the list of packages we installed on our conda environment at [this text file](requirements.txt). 
+It is very important to install the same versions of some of these packages in order for the code to run.
+
+## Running
+Set "images_path" in the [Main.py](py/Main.py) with your dataset path (make sure that there are only images in your folder and the image has GPS information).
+Then, set your configuration in the [Settings_manager.py](py/Settings_manager.py) and run [Main.py](py/Main.py).
+
 # Cite our paper
 If you find this method and the paper interesting and useful for your research, please cite our paper using 
 ```
@@ -59,20 +73,6 @@ If you find this method and the paper interesting and useful for your research, 
 
 
 ```
-
-# How to use our code
-## Data
-You can use UAV image dataset from Dronemapper website [at this link](https://dronemapper.com/sample_data/) or your own dataset with GPS information to test our code.
-
-## Requirements and Installation
-Our code is implemented on a linux system.
-In order to run our code, you need to make sure that you have all the required python packages and enough RAM. 
-You can find the list of packages we installed on our conda environment at [this text file](requirements.txt). 
-It is very important to install the same versions of some of these packages in order for the code to run.
-
-## Running
-Set "images_path" in the [Main.py](py/Main.py) with your dataset path (make sure that there are only images in your folder and the image has GPS information).
-Then, set your configuration in the [Settings_manager.py](py/Settings_manager.py) and run [Main.py](py/Main.py).
 
 # Reference
 
