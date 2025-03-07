@@ -51,7 +51,7 @@ Please refer to [our results](Our_results).
 
 # How to test our code
 ## Data
-You can use UAV image dataset from Dronemapper website [at this link](https://dronemapper.com/sample_data/) or your own dataset with GPS information to test our code.
+You can use UAV image dataset from Dronemapper website at [this link](https://dronemapper.com/sample_data/) or your own dataset with GPS information to test our code.
 
 ## Requirements and Installation
 Our code is implemented on a linux system.
