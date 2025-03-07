@@ -5,7 +5,7 @@ You can find our paper [here](https://ieeexplore.ieee.org/document/10912483).
 
 # Registration Performance
 ## Dataset details
-We evaluate our algorithm on 5 image datasets, which are all captured by Phantom 3 Advanced drone with resolution of 4000 × 3000 and available in Dronemapper website[6]. We also propose an efficient matching image pair selection method. The image number and selected image pair number is shown following.
+We evaluate our algorithm on 5 image datasets, which are all captured by Phantom 3 Advanced drone with resolution of 4000 × 3000 and available in Dronemapper website[6]. We also propose an efficient matching image pair selection method. The image number is shown following.
 
 <table style="width:100%">
   <tr>
