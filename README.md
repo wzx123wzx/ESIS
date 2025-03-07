@@ -47,7 +47,7 @@ We evaluate our algorithm on 5 image datasets, which are all captured by Phantom
 Due to space limitation,
 we only show our results of Golf Course dataset in the paper.
 Here, we provide our detailed results on 5 test datasets.
-Please refer to [Our_results](py/Main.py).
+Please refer to [Our_results](Our_results).
 
 # How to use our code
 ## Data
@@ -65,9 +65,9 @@ Then, set your configuration in the [Settings_manager.py](py/Settings_manager.py
 
 ## Fast to test our code
 
-1. modify the "images_path" with test_data, "slic_num_pixels_per_superpixel" with 1000 in constant.py
+1. modify the "images_path" with [test_data](test_data), "slic_num_pixels_per_superpixel" with 1000 in [constant.py](py/constant.py)
 
-2. run Main.py
+2. run [main.py](py/main.py)
 
 And then you'll get the stitching results of a small dataset (4 images) in 20s.
 
