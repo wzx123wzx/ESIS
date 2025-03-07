@@ -35,67 +35,6 @@ We evaluate our algorithm on 5 image datasets, which are all captured by Phantom
   </tr>
 </table>
 
-# Efficiency Performance
-We leverage the benefits of superpixels while significantly reducing the optimization vertices and enhancing the blending efficiency (refer following Table). And our superpixel-level energy function help our method find the global seamline (refer detailed comparison in our paper).
-
-We implement Jia’s [5] two-image graph-cut algorithm with frame-to-frame strategy for comparison, which estimates seamline between current composite mosaic and newly introduced image. Additionally, we introduce Enblend [4], an efficient open-source software developed in C++, which enables the construction of a seamline network using frame-to-frame strategy, for further comparison.
-And MetaShape is used for comparison again.
-## Blending performance (running time) 
-<table style="width:100%">
-  <tr>
-    <th>Dataset</th>
-    <th>Metashape</th>
-    <th>Jia's (frame-to-frame implementation)</th>
-    <th>Enblend</th>
-    <th>Ours (S=10000)</th>
-    <th>Ours (S=20000)</th>
-  </tr>
-   </tr>
-  <tr>
-    <td>Gregg</td>
-    <td>42m45s</td>
-    <td>18m11s</td>
-    <td>8m4s</td>
-    <td>4m38s</td>
-    <td><b>3m51s</b></td>
-  </tr>
-  <tr>
-    <td>Golf Course</td>
-    <td>2h28m58s</td>
-    <td>1h14m4s</td>
-    <td>30m46s</td>
-    <td>13m1s</td>
-    <td><b>7m38s</b></td>
-  </tr>
-  <tr>
-    <td>4thAveReservoir</td>
-    <td>17m3s</td>
-    <td>6m16s</td>
-    <td>4m19s</td>
-    <td>2m23s</td>
-    <td><b>1m28s</b></td>
-  </tr>
-  <tr>
-    <td>AdobeButtes1</td>
-    <td>29m45s</td>
-    <td>8m9s</td>
-    <td>7m42s</td>
-    <td>2m14s</td>
-    <td><b>2m1s</b></td>
-  </tr>
-  <tr>
-    <td>AdobeButtes2</td>
-    <td>1h14m6s</td>
-    <td>39m40s</td>
-    <td>16m27s</td>
-    <td>9m6s</td>
-    <td><b>6m20s</b></td>
-  </tr>
-</table>
-
-## Visual comparison
-![image](Visual_comparison_Golf_Course.png)
-
 # Cite our paper
 If you find this method and the paper interesting and useful for your research, please cite our paper using 
 ```
