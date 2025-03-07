@@ -4,11 +4,11 @@ You can find our paper [here](https://ieeexplore.ieee.org/document/10912483).
 ![image](workflow.png)
 
 # About Registration
-We have implemented an efficient linear affine transformation registration optimization algorithm, 
+We have implemented an efficient linear affine registration optimization algorithm, 
 but due to space limitations, 
 it is not described in detail in this paper.
 It's an important pre-step for our seamline detection method,
-please refer to []https://github.com/wzx123wzx/ESIS-Registration-Part for our registration algorithm details.
+please refer to [here](https://github.com/wzx123wzx/ESIS-Registration-Part) for more details about our registration optimization algorithm.
 
 ## Dataset details
 We evaluate our algorithm on 5 image datasets, which are all captured by Phantom 3 Advanced drone with resolution of 4000 × 3000 and available in Dronemapper website[6]. We also propose an efficient matching image pair selection method. The image number is shown following.
