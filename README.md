@@ -60,14 +60,14 @@ You can find the list of packages we installed on our conda environment at [this
 It is very important to install the same versions of some of these packages in order for the code to run.
 
 ## Running
-Set "images_path" in the [Main.py](py/Main.py) with your dataset path (make sure that there are only images in your folder and the image has GPS information).
-Then, set your configuration in the [Settings_manager.py](py/Settings_manager.py) and run [Main.py](py/Main.py).
+Set "images_path" in the [main.py](Code/main.py) with your dataset path (make sure that there are only images in your folder and the image has GPS information).
+Then, set your configuration in the [constant.py](Code/constant.py) and run [main.py](Code/main.py).
 
 ## Fast to test our code
 
-1. modify the "images_path" with [test_data](test_data), "slic_num_pixels_per_superpixel" with 1000 in [constant.py](py/constant.py)
+1. modify the "images_path" with [test_data](test_data), "slic_num_pixels_per_superpixel" with 1000 in [constant.py](Code/constant.py)
 
-2. run [main.py](py/main.py)
+2. run [main.py](Code/main.py)
 
 And then you'll get the stitching results of a small dataset (4 images) in 20s.
 
