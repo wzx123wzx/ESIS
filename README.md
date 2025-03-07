@@ -263,12 +263,17 @@ And MetaShape is used for comparison again.
 # Cite our paper
 If you find this method and the paper interesting and useful for your research, please cite us using 
 ```
-@article{zarei2021megastitch,
-  title={MegaStitch: Robust Large Scale Image Stitching},
-  author={Zarei, Ariyan and Gonzalez, Emmanuel and Merchant, Nirav and Pauli, Duke and Lyons, Eric and Barnard, Kobus},
-  year={2021},
-  publisher={TechRxiv}
-}
+@ARTICLE{Wang2025GRSL,
+  author={Wang, Zhongxing and Fu, Zhizhong and Xu, Jin},
+  journal={IEEE Geoscience and Remote Sensing Letters}, 
+  title={Efficient Superpixel-based Seamline Detection for Large-scale Image Stitching}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Optimization;Image stitching;Image segmentation;Image color analysis;Complexity theory;Minimization;Autonomous aerial vehicles;Remote sensing;Labeling;Costs;Multiple image stitching;seamline detection;superpixel segmentation;multi-label optimization;unmanned aerial vehicle (UAV) image},
+  doi={10.1109/LGRS.2025.3548266}}
+
 
 ```
 
