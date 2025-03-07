@@ -43,7 +43,7 @@ We evaluate our algorithm on 5 image datasets, which are all captured by Phantom
   </tr>
 </table>
 
-# 
+# Result details
 Due to space limitation,
 we only show our results of Golf Course dataset in the paper.
 Here, we provide our detailed results on 5 test datasets.
