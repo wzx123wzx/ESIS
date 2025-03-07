@@ -10,6 +10,8 @@ it is not described in detail in this paper.
 It's an important pre-step for our seamline detection method,
 please refer to [here](https://github.com/wzx123wzx/ESIS-Registration-Part) for more details about our registration optimization algorithm.
 
+And you can also use other algorithms to generate aligned images as input data to test our seamline detection method.
+
 ## Dataset details
 We evaluate our algorithm on 5 image datasets, which are all captured by Phantom 3 Advanced drone with resolution of 4000 × 3000 and available in Dronemapper website[6]. We also propose an efficient matching image pair selection method. The image number is shown following.
 
