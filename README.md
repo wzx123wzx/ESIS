@@ -60,8 +60,8 @@ You can find the list of packages we installed on our conda environment at [this
 It is very important to install the same versions of some of these packages in order for the code to run.
 
 ## Running
-Set "images_path" in the [main.py](Code/main.py) with your dataset path (make sure that there are only images in your folder and the image has GPS information).
-Then, set your configuration in the [constant.py](Code/constant.py) and run [main.py](Code/main.py).
+Set "images_path" in the [constant.py](Code/constant.py) with your dataset path (make sure that there are only images in your folder and the image has GPS information).
+Then, run [main.py](Code/main.py).
 
 ## Fast to test our code
 
