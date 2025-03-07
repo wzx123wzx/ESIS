@@ -11,195 +11,31 @@ We evaluate our algorithm on 5 image datasets, which are all captured by Phantom
   <tr>
     <th>Dataset</th>
     <th>Number of images</th>
-    <th>Number of matching image pair</th>
   </tr>
    </tr>
   <tr>
     <td>Gregg</td>
     <td>187</td>
-    <td>338</td>
   </tr>
   <tr>
     <td>Golf Course</td>
     <td>664</td>
-    <td>1424</td>
   </tr>
   <tr>
     <td>4thAveReservoir</td>
     <td>82</td>
-    <td>158</td>
   </tr>
   <tr>
     <td>AdobeButtes1</td>
     <td>160</td>
-    <td>310</td>
   </tr>
   <tr>
     <td>AdobeButtes2</td>
     <td>371</td>
-    <td>748</td>
   </tr>
 </table>
 
-We evaluate our registration quality with MegaStitch[2] and MGRAPH[1]. Compared to their method, our method has least optimization term number and best RMSE performance.
-
-## Optimization term number
-<table style="width:100%">
-  <tr>
-    <th>Dataset</th>
-    <th>MUAV</th>
-    <th>MGRAPH</th>
-    <th>MegaStitch affine</th>
-    <th>MegaStitch bundle adjustmnet</th>
-    <th>Ours</th>
-  </tr>
-   </tr>
-  <tr>
-    <td>Gregg</td>
-    <td>14268</td>
-    <td>21246</td>
-    <td>28826</td>
-    <td>14410</td>
-    <td><b>13520</b></td>
-  </tr>
-  <tr>
-    <td>Golf Course</td>
-    <td>59616</td>
-    <td>88268</td>
-    <td>118194</td>
-    <td>59094</td>
-    <td><b>56960</b></td>
-  </tr>
-  <tr>
-    <td>4thAveReservoir</td>
-    <td>6648</td>
-    <td>9812</td>
-    <td>13426</td>
-    <td>6710</td>
-    <td><b>6320</b></td>
-  </tr>
-  <tr>
-    <td>AdobeButtes1</td>
-    <td>13040</td>
-    <td>20534</td>
-    <td>27708</td>
-    <td>13851</td>
-    <td><b>12400</b></td>
-  </tr>
-  <tr>
-    <td>AdobeButtes2</td>
-    <td>31404</td>
-    <td>46547</td>
-    <td>62650</td>
-    <td>31322</td>
-    <td><b>29920</b></td>
-  </tr>
-</table>
-
-## Registration quality (RMSE) 
-<table style="width:100%">
-  <tr>
-    <th>Dataset</th>
-    <th>MUAV</th>
-    <th>MGRAPH</th>
-    <th>MegaStitch</th>
-    <th>Ours</th>
-  </tr>
-   </tr>
-  <tr>
-    <td>Gregg</td>
-    <td>6.13</td>
-    <td>7.57</td>
-    <td>2.31</td>
-    <td><b>2.23</b></td>
-  </tr>
-  <tr>
-    <td>Golf Course</td>
-    <td>3.51</td>
-    <td>3.81</td>
-    <td>1.65</td>
-    <td><b>1.52</b></td>
-  </tr>
-  <tr>
-    <td>4thAveReservoir</td>
-    <td>2.94</td>
-    <td>2.60</td>
-    <td>1.94</td>
-    <td><b>1.62</b></td>
-  </tr>
-  <tr>
-    <td>AdobeButtes1</td>
-    <td>2.06</td>
-    <td>2.27</td>
-    <td>1.52</td>
-    <td><b>1.41</b></td>
-  </tr>
-  <tr>
-    <td>AdobeButtes2</td>
-    <td>3.28</td>
-    <td>5.91</td>
-    <td>1.51</td>
-    <td><b>1.47</b></td>
-  </tr>
-</table>
-
-As for efficiency analysis, we add software MetaShape[3] for comparison.
-
-## Registration efficiency (transformation optimization time) 
-<table style="width:100%">
-  <tr>
-    <th>Dataset</th>
-    <th>MUAV</th>
-    <th>MGRAPH</th>
-    <th>MegaStitch</th>
-    <th>MetaShape*</th>
-    <th>Ours</th>
-  </tr>
-   </tr>
-  <tr>
-    <td>Gregg</td>
-    <td>14m2s</td>
-    <td>16m43s</td>
-    <td>21s</td>
-    <td>1m46s</td>
-    <td><b>7s</b></td>
-  </tr>
-  <tr>
-    <td>Golf Course</td>
-    <td>4h45m34s</td>
-    <td>5h13m25s</td>
-    <td>6m30s</td>
-    <td>12m1s</td>
-    <td><b>4m4s</b></td>
-  </tr>
-  <tr>
-    <td>4thAveReservoir</td>
-    <td>4m10s</td>
-    <td>3m14s</td>
-    <td>3s</td>
-    <td>1m11s</td>
-    <td><b>1s</b></td>
-  </tr>
-  <tr>
-    <td>AdobeButtes1</td>
-    <td>15m18s</td>
-    <td>16m14s</td>
-    <td>9s</td>
-    <td>2m19s</td>
-    <td><b>4s</b></td>
-  </tr>
-  <tr>
-    <td>AdobeButtes2</td>
-    <td>58m53s</td>
-    <td>1h28m58s</td>
-    <td>1m59s</td>
-    <td>6m29s</td>
-    <td><b>31s</b></td>
-  </tr>
-</table>
-* Running time of MetaShape "align images" step, which include feature feature extraction and matching. Thus, this part of time is for reference only.
-
-# Blending Performance
+# Efficiency Performance
 We leverage the benefits of superpixels while significantly reducing the optimization vertices and enhancing the blending efficiency (refer following Table). And our superpixel-level energy function help our method find the global seamline (refer detailed comparison in our paper).
 
 We implement Jia’s [5] two-image graph-cut algorithm with frame-to-frame strategy for comparison, which estimates seamline between current composite mosaic and newly introduced image. Additionally, we introduce Enblend [4], an efficient open-source software developed in C++, which enables the construction of a seamline network using frame-to-frame strategy, for further comparison.
@@ -261,7 +97,7 @@ And MetaShape is used for comparison again.
 ![image](Visual_comparison_Golf_Course.png)
 
 # Cite our paper
-If you find this method and the paper interesting and useful for your research, please cite us using 
+If you find this method and the paper interesting and useful for your research, please cite our paper using 
 ```
 @ARTICLE{Wang2025GRSL,
   author={Wang, Zhongxing and Fu, Zhizhong and Xu, Jin},
