@@ -8,12 +8,14 @@ We have implemented an efficient linear affine registration optimization algorit
 but due to space limitations, 
 it is not described in this paper.
 It's an important pre-step for our seamline detection method,
-please refer to [here](https://github.com/wzx123wzx/ESIS-Registration-Part) for more details about our registration optimization algorithm.
+please refer to [this link](https://github.com/wzx123wzx/ESIS-Registration-Part) for more details about our registration optimization algorithm.
 
 And you can also use other algorithms to generate aligned images as input data to test our seamline detection method.
 
 # Dataset details
-We evaluate our algorithm on 5 image datasets, which are all captured by Phantom 3 Advanced drone with resolution of 4000 × 3000 and available in Dronemapper website[6]. We also propose an efficient matching image pair selection method. The image number is shown following.
+We evaluate our algorithm on 5 image datasets, which are all captured by Phantom 3 Advanced drone with resolution of 4000 × 3000 and available in Dronemapper website[6]. 
+We also propose an efficient matching image pair selection method. 
+The image number is shown following.
 
 <table style="width:100%">
   <tr>
@@ -56,7 +58,7 @@ You can use UAV image dataset from Dronemapper website at [this link](https://dr
 ## Requirements and Installation
 Our code is implemented on a linux system.
 In order to run our code, you need to make sure that you have all the required python packages and enough RAM. 
-You can find the list of packages we installed on our conda environment at this [text file](requirements.txt). 
+You can find the list of packages we installed on our conda environment at [this text file](requirements.txt). 
 It is very important to install the same versions of some of these packages in order for the code to run.
 
 ## Running
