@@ -8,7 +8,7 @@ We have implemented an efficient linear affine registration optimization algorit
 but due to space limitations, 
 it is not described in this paper.
 It's an important pre-step for our seamline detection method,
-please refer to [this link](https://github.com/wzx123wzx/ESIS-Registration-Part) for more details about our registration optimization algorithm.
+please refer to [ESIS-Registration-Part](ESIS-Registration-Part) for more details about our registration optimization algorithm.
 
 And you can also use other algorithms to generate aligned images as input data to test our seamline detection method.
 
