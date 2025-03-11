@@ -95,7 +95,7 @@ if __name__ == '__main__':
         sift_data_path=path_sift_extraction_result)
     print('parallel feature matching, running time: {}'.format(datetime.datetime.now() - start_time))
 
-    # Select sift points for constructing our optimization function
+    # select sift points for constructing our optimization function
     print('---------------matching points selection---------------')
     start_time = datetime.datetime.now()
     matching_points_selected = matching_points_selection.matching_points_origin_top(
@@ -136,7 +136,7 @@ if __name__ == '__main__':
     cv2.imwrite('{}/mosaic.png'.format(path_results), mosaic)
     print('stitch aligned images, running time: {}'.format(datetime.datetime.now() - start_time))
 
-    # Multi-frame graph-cut
+    # multi-frame graph-cut
     start_time = datetime.datetime.now()
     mosaic_sp, optimal_sp, sp_result, mosaic_graph_cut = Graph_cut.Multi_frame_graph_cut(
         images_name, stitching_transformation_vec, warped_img, warped_img_valid,
