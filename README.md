@@ -76,15 +76,15 @@ And then you'll get the stitching results of a small dataset (4 images) in 20s.
 # Cite our paper
 If you find this method and the paper interesting and useful for your research, please cite our paper using 
 ```
-@ARTICLE{Wang2025GRSL,
+@ARTICLE{10912483,
   author={Wang, Zhongxing and Fu, Zhizhong and Xu, Jin},
   journal={IEEE Geoscience and Remote Sensing Letters}, 
-  title={Efficient Superpixel-based Seamline Detection for Large-scale Image Stitching}, 
+  title={Efficient Superpixel-Based Seamline Detection for Large-Scale Image Stitching}, 
   year={2025},
-  volume={},
+  volume={22},
   number={},
-  pages={1-1},
-  keywords={Optimization;Image stitching;Image segmentation;Image color analysis;Complexity theory;Minimization;Autonomous aerial vehicles;Remote sensing;Labeling;Costs;Multiple image stitching;seamline detection;superpixel segmentation;multi-label optimization;unmanned aerial vehicle (UAV) image},
+  pages={1-5},
+  keywords={Optimization;Image stitching;Image segmentation;Image color analysis;Complexity theory;Minimization;Autonomous aerial vehicles;Remote sensing;Labeling;Costs;Multilabel optimization;multiple image stitching;seamline detection;superpixel segmentation;unmanned aerial vehicle (UAV) image},
   doi={10.1109/LGRS.2025.3548266}}
 ```
 
