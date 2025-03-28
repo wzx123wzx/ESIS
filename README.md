@@ -88,20 +88,6 @@ If you find this method and the paper interesting and useful for your research, 
   doi={10.1109/LGRS.2025.3548266}}
 ```
 
-```
-@article{WANG2025JVCIR,
-title = {Large-scale UAV image stitching based on global registration optimization and graph-cut method},
-journal = {Journal of Visual Communication and Image Representation},
-volume = {107},
-pages = {104354},
-year = {2025},
-issn = {1047-3203},
-doi = {https://doi.org/10.1016/j.jvcir.2024.104354},
-url = {https://www.sciencedirect.com/science/article/pii/S1047320324003109},
-author = {Zhongxing Wang and Zhizhong Fu and Jin Xu},
-keywords = {Large-scale image stitching, Global registration optimization, Graph-cut, Unmanned aerial vehicles (UAVs)}}
-```
-
 # Reference
 
 1. “Dronemapper,” accessed: June. 12, 2023. [Online]. Available: https://dronemapper.com/sample_data/
