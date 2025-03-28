@@ -76,7 +76,7 @@ And then you'll get the stitching results of a small dataset (4 images) in 20s.
 # Cite our paper
 If you find this method and the paper interesting and useful for your research, please cite our paper using 
 ```
-@ARTICLE{10912483,
+@ARTICLE{Wang2025GRSL,
   author={Wang, Zhongxing and Fu, Zhizhong and Xu, Jin},
   journal={IEEE Geoscience and Remote Sensing Letters}, 
   title={Efficient Superpixel-Based Seamline Detection for Large-Scale Image Stitching}, 
@@ -86,6 +86,20 @@ If you find this method and the paper interesting and useful for your research, 
   pages={1-5},
   keywords={Optimization;Image stitching;Image segmentation;Image color analysis;Complexity theory;Minimization;Autonomous aerial vehicles;Remote sensing;Labeling;Costs;Multilabel optimization;multiple image stitching;seamline detection;superpixel segmentation;unmanned aerial vehicle (UAV) image},
   doi={10.1109/LGRS.2025.3548266}}
+```
+
+```
+@article{WANG2025JVCIR,
+title = {Large-scale UAV image stitching based on global registration optimization and graph-cut method},
+journal = {Journal of Visual Communication and Image Representation},
+volume = {107},
+pages = {104354},
+year = {2025},
+issn = {1047-3203},
+doi = {https://doi.org/10.1016/j.jvcir.2024.104354},
+url = {https://www.sciencedirect.com/science/article/pii/S1047320324003109},
+author = {Zhongxing Wang and Zhizhong Fu and Jin Xu},
+keywords = {Large-scale image stitching, Global registration optimization, Graph-cut, Unmanned aerial vehicles (UAVs)}}
 ```
 
 # Reference
