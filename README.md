@@ -82,7 +82,6 @@ If you find this method and the paper interesting and useful for your research, 
   title={Efficient Superpixel-Based Seamline Detection for Large-Scale Image Stitching}, 
   year={2025},
   volume={22},
-  number={},
   pages={1-5},
   keywords={Optimization;Image stitching;Image segmentation;Image color analysis;Complexity theory;Minimization;Autonomous aerial vehicles;Remote sensing;Labeling;Costs;Multilabel optimization;multiple image stitching;seamline detection;superpixel segmentation;unmanned aerial vehicle (UAV) image},
   doi={10.1109/LGRS.2025.3548266}}
